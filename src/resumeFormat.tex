@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper,garamond]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+
+\vspace*{-2.5mm}
+
+%-------------------------------------------
+%%%%%%  RESUME ACTUALLY BEGINS HERE  %%%%%%%%%%%%%%%%%%%%
+
+%----------TITLE-&-HEADER---------
+\name{First Name,}{Last Name}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-10mm}
+\begin{center}{Student}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\faPhone\enspace +1 (234) 567-8910 & \enspace\faEnvelope\enspace arandomemail@gmail.com & \enspace\faHome\enspace State, Country \\
+\faLinkedin\enspace \color{black} \href{https://www.linkedin.com}{in/} &
+\faGithub\enspace \color{black} \href{https://github.com/}{github.com/} & \enspace {\textit{$\mathbb{X}$}}\enspace \color{black} \href{https://x.com/}{@X}
+\end{tabular}
+\end{center}
+
+%----------SUMMARY----------
+% \section{Summary}
+% {_____________________________________________________________________________________________________________________________________________________________________________________________________.}
+
+%----------AREAS-OF-SPECIALTY/INTEREST----------
+% \section{Areas of Specialty/Interest}
+% {Life - Being - Fun - Plus - Interesting}
+
+\vspace*{-5.5mm}
+
+%----------EDUCATION----------
+\section{Education}
+\customcventry{YYYY-YYYY [Expected]}{\color{black}\href{https://www.google.com/}{University Name}}{\textnormal{Bachelor of Something in N/A} Degree Name}{City, State}{}{}
+
+% {\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+% \item Minor/Concentration: ______
+% \end{itemize}
+
+% {\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+% \item Relevant Courses: ____,_____,_____,_____,_____..
+% \end{itemize}
+
+%----------SKILLS----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.7cm, label=\circ]
+\item \textbf{Technical}: , , , , .
+\item \textbf{Interpersonal}: , , , , .
+\end{itemize}
+
+%----------WORK-EXPERIENCE----------
+\section{Work Experience}
+\customcventry{Start Date ‐ End Date (MM/YYYY)}{{\color{black}\href{https://www.google.com/}{Company/Org Name}}}{Position}{City State}{}{
+{\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+\item .
+\item .
+\item .
+\end{itemize}}}
+
+\customcventry{Start Date ‐ End Date (MM/YYYY)}{{\color{black}\href{https://www.google.com/}{Company/Org Name}}}{Position}{City State}{}{
+{\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+\item .
+\item .
+\item .
+\end{itemize}}}
+
+\customcventry{Start Date ‐ End Date (MM/YYYY)}{{\color{black}\href{https://www.google.com/}{Company/Org Name}}}{Position}{City State}{}{
+{\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+\item .
+\item .
+\item .
+\end{itemize}}}
+
+\customcventry{Start Date ‐ End Date (MM/YYYY)}{{\color{black}\href{https://www.google.com/}{Company/Org Name}}}{Position}{City State}{}{
+{\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+\item .
+\item .
+\item .
+\end{itemize}}}
+
+\customcventry{Start Date ‐ End Date (MM/YYYY)}{{\color{black}\href{https://www.google.com/}{Company/Org Name}}}{Position}{City State}{}{
+{\begin{itemize}[leftmargin=0.7cm, label={\textbullet}]
+\item .
+\item .
+\item .
+\end{itemize}}}
+
+%----------PROJECTS----------
+\section{Projects}
+{\begin{itemize}[label=\textbullet]
+      \item \textit{Proj2} ([Month Abbreviated] [YYYY]), \underline{\color{black}\href{https://www.google.com}{Link2}}
+      \item \textit{Proj1} ([Month Abbreviated] [YYYY], \underline{\color{black}\href{https://www.google.com}{Link1}} 
+  \end{itemize}}
+
+%----------CERTIFICATIONS----------
+% \section{Certifications}
+% {\begin{itemize}[label=\textbullet]
+%       \item Cert1 ([Month Abbreviated] [YYYY]) - \underline{\color{black}\href{Insert Website}{Crtfctn1}}
+%       \item Cert2 ([Month Abbreviated] [YYYY]) - \underline{\color{black}\href{Insert Website}{Crtfctn2}}
+%       \item Cert3 ([Month Abbreviated] [YYYY]) - \underline{\color{black}\href{Insert Website}{Crtfctn3}}
+%   \end{itemize}}
+
+% ----------LANGUAGES----------
+% \section{Languages}
+% \begin{multicols}{2}
+%     \begin{itemize}[label=\textbullet]
+%     \item \textbf{English} [Native]
+%     \item {\textbf{Spanish} [Basc] - Learning}
+%     \item {\textbf{Italian} [Basic]}
+%     \item {\textbf{Swahili} [Basic]}
+%     \item {\textbf{Mandarin} [Beginner]}
+%     \end{itemize}
+% \end{multicols}
+\end{document}
